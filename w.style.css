@@ -65,6 +65,7 @@ body {
     background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
     background-repeat: no-repeat;
     color: white;
+    min-height: 100vh;
 }
  h5{
     color:white;
@@ -81,7 +82,7 @@ body {
     border: solid rgb(59, 59, 214) 4px;
     border-radius: 20px; 
     display:flex;  
-    margin-top: -90px;
+    margin-top: 10px;
     font-size: 100%;
     margin-left: 400px;
     max-width:40% ;
@@ -160,4 +161,10 @@ h3{
     margin-top: 10px;
 
     border-radius: 10px;
+
+
+  }
+  .parent{
+
+    display:flex;
   }

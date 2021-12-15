@@ -55,7 +55,7 @@ $("#search-button").on("click", function(){
 
 
 function saveCity(city){
-  $("#history").html()
+  $("#history").html("")
   let cities = JSON.parse(localStorage.getItem('cities'));
         if (!cities) {
              cities = [];
