@@ -24,7 +24,7 @@
       <!-- <div class="row">
         <div class="col"> -->
                     
-          <div class="container-fluid">
+          <div class="container-fluid d-flex">
             <div class="row">
               <aside class="col-lg-3 bg-light"></aside>
               <h5 class="mt-2">Search For A City:</h5>
@@ -33,18 +33,18 @@
               <button class="btn btn-primary" id="search-button">
                 <i class="fa fa-search"></i>
               </button>
+              <div id="history"></div>
             </div> 
             
                 <div class="container">
                  <div class="row">
-                 <div class="col">
-                  
+                 <div class="col"> 
                   <h4 id="city"></h4>
-                  <div id="temp"></div>
-                  <h6>&#0176;F</h6>
-                  <p>Humidity: %</p>
-                  <p>Wind Speed:  MPH</p>
-                  <p>UV Index:</p>
+                  <div id="img"></div>
+                  <div id="temp"></div> 
+                  <div id="Humidity" ></div>
+                  <div id="Wind"></div>
+                  <div id="UV"></div>
                   </div>
                  
                    
@@ -58,46 +58,59 @@
     <div class="card">
       
       
-      <h3>Monday</h3>
-      <p>12/20/21</p>
-      <p>Some text</p>
+      
+      <h3 id="date1"></h3>
+      <p id="icon1"></p>
+      <p id="temp1"></p>
+      <p id="humidity1"></p>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <h3>Tuesday</h3>
-      <p>12/21/21</p>
-      <p>Some text</p>
+      <h3 id="date2"></h3>
+      <p id="icon2"></p>
+      <p id="temp2"></p>
+      <p id="humidity2"></p>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <h3>Wednesday</h3>
-      <p>12/22/21</p>
-      <p>Some text</p>
+     <h3 id="date3"></h3>
+      <p id="icon3"></p>
+      <p id="temp3"></p>
+      <p id="humidity3"></p>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <h3>Thursday</h3>
-      <p>12/23/21</p>
-      <p>Some text</p>
+      <h3 id="date4"></h3>
+      <p id="icon4"></p>
+      <p id="temp4"></p>
+      <p id="humidity4"></p>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <h3>Thursday</h3>
-      <p>12/23/21</p>
-      <p>Some text</p>
+      <h3 id="date5"></h3>
+      <p id="icon5"></p>
+      <p id="temp5"></p>
+      <p id="humidity5"></p>
     </div>
   </div>
   </div>
-                  
-      <script src="./weather.js"></script>
+  <script
+ 
+  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+  crossorigin="anonymous"></script>             
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>   
+  <script src="./weather.js"></script>
+
     </body>
   </head> 
 </html>
