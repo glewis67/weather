@@ -7,7 +7,7 @@
 
 ## Desktop
 
-![Alt test](/images/w.png)
+![Alt test](weather/images/w.png)
 
 
 ## Table of Contents
@@ -62,5 +62,3 @@ Currently there are no bugs!
 
 This software is licensed under MIT license.
 
-
- 

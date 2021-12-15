@@ -1,9 +1,47 @@
-*{
-box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
   }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: blue;
+    
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 00px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+    
   
   
 header {
@@ -36,7 +74,7 @@ body {
 
 }
 
-.container{ 
+ .container{ 
     box-shadow: 5px 10px rgb(6, 62, 134);
     padding: 25px;
     border: solid rgb(59, 59, 214) 4px;
@@ -45,142 +83,69 @@ body {
     margin-top: -90px;
     font-size: 100%;
     margin-left: 400px;
-    max-width:800px ;
+    max-width:40% ;
     max-height: 900px;
-    color:white;
+    color:white; 
     
 
-}
+ } 
 h2{ 
     /* padding: 20px;
-    background-color: blue; */
-    color:white;
-    text-shadow: 2px 2px 4px #000000;
-    margin-top: 100px;
-    margin-left: 200px;
+     background-color: blue;  */
+     color:white;
+    text-shadow: 2px 2px 4px #000000; 
+     margin-top: 100px;
+    margin-left: 200px; 
     color: white;
     font-size: 20pt;
-    font-weight: 100px;
+    font-weight: 100px; 
 
    
    
-}
-h4{
-    /* padding: 20px;
-    background-color: blue; */
-    color:white;
+ } 
+ h4{
+     padding: 20px;
+    /* background-color: blue;  */
+     color:white;
     text-shadow: 2px 2px 4px #000000;
-    margin-top: -50px ;
+    margin-top: -10px ;
     margin-left: 10px;
-    font-size: 20pt;
-    font-weight: 100px;
-}
-h6{
-    margin-top: -135px ;
-    margin-left: 180px;
     font-size: 18pt;
+    font-weight: 100px;
+} 
+h6{
+    margin-top: -25px ;
+    margin-left: 70px;
+    font-size: 15pt;
+}
    
-}
+
 #temp{ 
-    margin-top: 100px;
-    margin-left: 0px;
-    font-size: 50pt;
+    
+    font-size: 15pt;
+    
 }
 
-.containerDay1{
-    color:white;
-    text-shadow: 2px 2px 4px #000000;
-    padding: 25px; 
-    border: transparent;
-    border-radius: 20px; 
-    display:flex;
-    position: absolute;
-    margin-top: 75px;
-    margin-left: -50px;
-    max-width:fit-content;
-    max-height: fit-content;
-    font-size: 24pt;
-    color: black;
-
+p{
+    font-size:14pt;
 }
-.containerDay2{
+    
+
+h3{
+    font-size:14pt;
+}
+
+
+ .container1{
     padding: 25px;
     border: solid rgb(35, 35, 148) 1px;
-    background-color:rgb(10, 86, 226);
+    background-color:blue;
     border-radius: 20px; 
     display:flex;
-    position: absolute;
-    margin-top: 160px ;
-    margin-left: 0px;
+    margin-top: 75px;
     max-width:fit-content;
     max-height: fit-content;
     font-size: 10pt;
     color: white;
-
-}
-.containerDay3{
-    padding: 25px;
-    border: solid rgb(39, 39, 158) 1px;
-    background-color:rgb(10, 86, 226);
-    border-radius: 20px; 
-    display:flex;
-    position: absolute;
-    margin-top: -25px ;
-    margin-left: 150px;
-    max-width:fit-content;
-    max-height: fit-content;
-    font-size: 100%;
-    color: white;
-
-}
-.containerDay4{
-    padding: 25px;  
-    border: solid rgb(39, 39, 158) 1px;
-    background-color:rgb(10, 86, 226);
-    border-radius: 20px; 
-    display:flex;
-    position: absolute;
-    margin-top: -25px ;
-    margin-left: 150px;
-    max-width:fit-content;
-    max-height: fit-content;
-    font-size: 100%;
-    color: white;
-
-}
-.containerDay5{
-    padding: 25px;
-    border: solid rgb(39, 39, 158) 1px;
-    background-color:rgb(10, 86, 226);
-    border-radius: 20px; 
-    display:flex;
-    position: absolute;
-    margin-top: -25px ;
-    margin-left: 150px;
-    max-width:fit-content;
-    max-height: fit-content;
-    font-size: 100%;
-    color: white;
-
-}
-.containerDay6{
-    padding: 25px;
-    border: solid rgb(39, 39, 158) 1px;
-    background-color:rgb(10, 86, 226);
-    border-radius: 20px; 
-    display:flex;
-    position: absolute;
-    margin-top: -25px ;
-    margin-left: 150px;
-    max-width:fit-content;
-    max-height: fit-content;
-    font-size: 100%;
-    color: white;
-
-}
-
-
-
- 
-
+ } 
   
