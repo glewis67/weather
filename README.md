@@ -7,7 +7,7 @@
 
 ## Desktop
 
-![Alt test](weather/images/w.png)
+![Alt test](./images/weather1.png)
 
 
 ## Table of Contents
